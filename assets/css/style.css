@@ -163,7 +163,7 @@ html {
 }
 
 html {
-  background: var( --eerie-black-1); 
+  /* background: var( --eerie-black-1); */
   background-image: url("../images/pozadí_bílé.JPG");
   object-fit: auto;
   background: sticky;
