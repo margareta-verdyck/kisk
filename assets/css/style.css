@@ -44,17 +44,16 @@
 
   /* solid */
 
-  --jet: #84a59d;
+  --jet: #c04f15;
   --onyx: #fec89a;
-  --eerie-black-1: #fffff5;
-  --eerie-black-2: #ffffff;
-  --smoky-black: #f9dcc4;
+  --white: #ffffff;
+  --smoky-black: #c04f15;
   --black: #101010;
   --grey: #2c2c2e;
   --light-green: #a8beae;
   --mid-green: #84a59d;
   --light-gray: #2c2c2e;
-  --bittersweet-shimmer: hsl(0, 43%, 51%);
+  --bittersweet-shimmer: c04f15;
 
   /**
    * typography
@@ -163,7 +162,7 @@ html {
 }
 
 html {
-  /* background: var( --eerie-black-1); */
+  /* background: var( --white); */
   background-image: url("../images/rybicky_nej.jpg");
   object-fit: auto;
   background: sticky;
@@ -181,7 +180,7 @@ html {
 
 .sidebar,
 article {
-  background: var(--eerie-black-2);
+  background: var(--white);
   border: 0px solid var(--jet);
   border-radius: 20px;
   padding: 15px;
@@ -214,7 +213,7 @@ article {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--eerie-black-1);
+  background: var(--white);
   border-radius: inherit;
   z-index: -1;
 }
@@ -453,7 +452,7 @@ main {
 }
 
 .contact-title {
-  color: var(--eerie-black-1);
+  color: var(--white);
   font-size: var(--fs-7);
   text-transform: uppercase;
   margin-bottom: 2px;
@@ -500,7 +499,7 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #57857a;
+  background-color: var(--white);
   backdrop-filter: blur(10px);
   /*border: 1px solid var(--jet);*/
   border-radius: 12px 12px 0 0;
@@ -725,7 +724,7 @@ main {
 }
 
 .testimonials-modal {
-  background: var(--eerie-black-2);
+  background: var(--white);
   position: relative;
   padding: 15px;
   margin: 15px 12px;
@@ -979,7 +978,7 @@ main {
 }
 
 .filter-select {
-  background: var(--eerie-black-2);
+  background: var(--white);
   color: var(--light-gray);
   display: flex;
   justify-content: space-between;
@@ -997,7 +996,7 @@ main {
 }
 
 .select-list {
-  background: var(--eerie-black-2);
+  background: var(--white);
   position: absolute;
   top: calc(100% + 6px);
   width: 100%;
@@ -1018,7 +1017,7 @@ main {
 }
 
 .select-item button {
-  background: var(--eerie-black-2);
+  background: var(--white);
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
@@ -1029,7 +1028,7 @@ main {
 }
 
 .select-item button:hover {
-  --eerie-black-2: hsl(240, 2%, 20%);
+  --white: hsl(240, 2%, 20%);
 }
 
 .project-list {
@@ -1163,7 +1162,7 @@ main {
 
 .blog-post-item>a {
   position: relative;
-  background: var(--eerie-black-2);
+  background: var(--white);
   height: 100%;
   box-shadow: var(--shadow-4);
   border-radius: 16px;
@@ -1175,7 +1174,7 @@ main {
   position: absolute;
   inset: 1px;
   border-radius: inherit;
-  background: var(--eerie-black-2);
+  background: var(--white);
   z-index: -1;
 }
 
