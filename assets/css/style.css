@@ -46,7 +46,7 @@
 
   --jet: #84a59d;
   --onyx: #fec89a;
-  --eerie-black-1: #225448;
+  --eerie-black-1: #fffff5;
   --eerie-black-2: #ffffff;
   --smoky-black: #f9dcc4;
   --black: #101010;
@@ -185,7 +185,7 @@ article {
   border: 0px solid var(--jet);
   border-radius: 20px;
   padding: 15px;
- \* box-shadow: var(--shadow-1);*/
+  box-shadow: var(--shadow-1);
   z-index: 1;
 }
 
@@ -502,7 +502,7 @@ main {
   width: 100%;
   background-color: #57857a;
   backdrop-filter: blur(10px);
-  border: 1px solid var(--jet);
+  /*border: 1px solid var(--jet);*/
   border-radius: 12px 12px 0 0;
   box-shadow: var(--shadow-2);
   z-index: 5;
