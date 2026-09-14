@@ -162,7 +162,7 @@ html {
 html {
   /* background: var( --white); */
   background-image: url("../images/rybicky_nej.jpg");
-  object-fit: cover;
+  object-fit: auto;
   background: sticky;
   background-position: top;
   background-repeat: no-repeat;
@@ -1491,7 +1491,7 @@ textarea.form-input::-webkit-resizer {
     background-size: none;
     background-position: center;
     overflow: auto;
-    object-fit: cover; 
+    object-fit: auto; 
   }
 
   main {
