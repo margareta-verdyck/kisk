@@ -162,7 +162,7 @@ html {
 html {
   /* background: var( --white); */
   background-image: url("../images/rybicky_nej.jpg");
-  object-fit: auto;
+  object-fit: none;
   background: sticky;
   background-position: top;
   background-repeat: no-repeat;
